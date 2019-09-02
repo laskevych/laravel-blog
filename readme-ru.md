@@ -4,20 +4,20 @@
 
 ## Laravel Blog
 
-This is my first app build with Laravel 5.8 
+Мое первое приложение на Laravel 5.8 
 
-- CRUD operations to the blog post.
-- Creating and Deleting comment for user and blog post.
-- Tags for blog post and comment.
-- Statistic sidebar on the right side runs on cache (Redis).
-- Queues for sending markdown emails (Redis).
-- Service "Currently Reading" (App\Services\Counter).
-- Localizaton (EN|RU).
+- CRUD операции с блог постами.
+- Создание и удаление комментариев для пользователя и поста.
+- Теги для комментариев и постов.
+- Сайдбар со статиской. (Redis).
+- Очереди для отправления эмейлов (Redis).
+- Сервис "Сейчас читают/просматривают" (App\Services\Counter).
+- Локализация (EN|RU).
 
 ## API Laravel Blog
 
-- CRUD operations to the blog post.
-- CRUD operation to the blog post comment.
+- CRUD для блог постов.
+- CRUD для комментариев блог постов.
 
 ## Tests
 
