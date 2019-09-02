@@ -8,10 +8,10 @@ class HomeController extends Controller
     {
         return view('home', ['meta_title' => __('Home')]);
     }
-
-    public function contact()
+    
+    public function about()
     {
-        return view('contact', ['meta_title' => __('Contact')]);
+        return view('about', ['meta_title' => __('About')]);
     }
 
     public function secret()

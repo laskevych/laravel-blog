@@ -19,6 +19,8 @@ Route::get('/secret', 'HomeController@secret')
         ->name('secret')
         ->middleware('can:home.secret');
 
+Route::get('/about', 'HomeController@about')->name('about');
+
 Route::resource('posts', 'PostController');
 
 Route::patch('/posts/{post}', 'PostController@restore')->name('posts.restore');

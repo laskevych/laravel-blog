@@ -11,8 +11,8 @@
             <li class="nav-item {{ Route::currentRouteName() == 'home' ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('home') }}">{{ __('Home') }}</a>
             </li>
-            <li class="nav-item {{ Route::currentRouteName() == 'contact' ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route('contact') }}">{{ __('Contact') }}</a>
+            <li class="nav-item {{ Route::currentRouteName() == 'about' ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('about') }}">{{ __('About') }}</a>
             </li>
             <li class="nav-item {{ Route::currentRouteName() == 'posts.index' ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('posts.index') }}">{{ __("Blog Posts") }}</a>
