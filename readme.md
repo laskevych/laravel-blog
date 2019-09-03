@@ -1,4 +1,4 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<p align="center"><img src="public/images/site-full-logo.png"></p>
 
 *[English](readme.md) | [Русский](readme-ru.md)*
 
@@ -27,9 +27,9 @@ This is my first app build with Laravel 5.8
 ## Start
  1. Clone this repo into a new directory.
  2. Add **.env** file
- 3. Run `php artisan key:generate`
- 4. Run `composer install`
- 5. Run `npm install` 
+ 3. Run `composer install`
+ 4. Run `npm install` 
+ 5. Run `php artisan key:generate`
  6. Update Redis configuration. [Redis Labs](https://redislabs.com/)
  7. Update MailTrap configuration. [MailTrap](https://mailtrap.io/)
  8. Run `php artisan storage:link`

@@ -4,7 +4,7 @@
 <div class="card-columns row d-flex justify-content-center">
     @forelse ($users as $user)
     <div class="card col-lg-2 col-sm-4 col-md-4 border-1 mr-1 ml-1 shadow-sm">
-        <img class="card-img pt-2 rounded" src="{{ $user->image ? $user->image->url() : asset('images/no-image-user.jpg') }}" alt="Card image cap">
+        <img class="card-img pt-2 rounded" src="{{ $user->image ? $user->image->url() : asset('images/no-image-user.png') }}" alt="Card image cap">
         <div class="card-body">
             <p class="card-text d-flex justify-content-between align-items-center">
                 <a href="{{ route('users.show', ['user' => $user->id]) }}" class="card-link">{{ $user->name }}</a>

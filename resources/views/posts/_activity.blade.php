@@ -35,7 +35,7 @@
                     @foreach ($mostActiveUsers as $user)
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <div class="d-flex flex-row align-items-center">
-                                <img class="rounded-circle float-left mr-2" width="35px" height="35px" src="{{ $user->image ? $user->image->url() : asset('images/no-image-user.jpg') }}" alt="">
+                                <img class="rounded-circle float-left mr-2" width="35px" height="35px" src="{{ $user->image ? $user->image->url() : asset('images/no-image-user.png') }}" alt="">
                                 <a class="card-link text-dark" href="{{ route('users.show', ['user'=> $user->id]) }}">
                                     {{ $user->name }}
                                 </a>
@@ -62,7 +62,7 @@
                     @foreach ($mostActiveUsersLastMonth as $user)
                         <li class="list-group-item d-flex justify-content-between align-items-center">
                             <div class="d-flex flex-row align-items-center">
-                                <img class="rounded-circle float-left mr-2" width="35px" height="35px" src="{{ $user->image ? $user->image->url() : asset('images/no-image-user.jpg') }}" alt="">
+                                <img class="rounded-circle float-left mr-2" width="35px" height="35px" src="{{ $user->image ? $user->image->url() : asset('images/no-image-user.png') }}" alt="">
                                 <a class="card-link text-dark" href="{{ route('users.show', ['user'=> $user->id]) }}">
                                     {{ $user->name }}
                                 </a>

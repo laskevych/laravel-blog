@@ -10,7 +10,10 @@
 
         <div class="row">
             <div class="col-4">
-                <img class="img-thumbnail avatar" src="{{ $user->image ? $user->image->url() : asset('images/no-image-user.jpg') }}" alt="">
+                @if($user->image)
+                    <img class="img-thumbnail avatar" src="{{ $user->image->url() }}" alt="">
+                @endif
+                
                 <div class="card mt-4">
                     <div class="card-body">
                         <h6>{{ __('Upload a different photo') }}</h6>

@@ -5,7 +5,7 @@
         <div class="col-lg-2 col-sm-4 col-md-4">
             <div class="card border-0 shadow-sm">
                 
-                <img class="card-img-top" src="{{ $user->image ? $user->image->url() : asset('images/no-image-user.jpg') }}" alt="{{ $user->name }}">
+                <img class="card-img-top" src="{{ $user->image ? $user->image->url() : asset('images/no-image-user.png') }}" alt="{{ $user->name }}">
                
                 <div class="card-body">
                     <h5 class="card-title">{{ $user->name }}</h5>
