@@ -16,10 +16,10 @@ class HomeTest extends TestCase
         $response->assertStatus(200);
     }
 
-    public function testContactPageIsWorkingCorrectly()
+    public function testAboutPageIsWorkingCorrectly()
     {
-        $response = $this->get('/contact');
-        $response->assertSeeText('This is my contact page');
+        $response = $this->get('/about');
+        $response->assertSeeText('About');
     }
 
     public function testSecretPageIsWorkingForAdmin()
@@ -40,7 +40,7 @@ class HomeTest extends TestCase
         $user = $this->user();
 
         $this->actingAs($user)
-            ->get('/contact')
+            ->get('/about')
             ->assertDontSeeText('Secret Page!');
     }
 }

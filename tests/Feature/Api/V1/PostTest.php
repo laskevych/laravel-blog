@@ -91,7 +91,7 @@ class PostTest extends TestCase
         $response->assertStatus(201)
             ->assertJson([
                 'title' => 'Hello John Wick',
-                'content' => 'Luckly Content'
+                'content' => '<p>Luckly Content</p>'
             ]);
     }
 

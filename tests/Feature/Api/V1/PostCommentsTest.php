@@ -127,7 +127,7 @@ class PostCommentsTest extends TestCase
         $response->assertStatus(200)
             ->assertJson([
                 'id' => $comment->id,
-                'content' => 'Hello API'
+                'content' => '<p>Hello API</p>'
         ]);
     }
 
