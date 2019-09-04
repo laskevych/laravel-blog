@@ -25,7 +25,7 @@ Route::get('/docs', 'HomeController@docs')->name('docs');
 
 Route::resource('posts', 'PostController');
 
-Route::patch('/posts/{post}', 'PostController@restore')->name('posts.restore');
+Route::patch('/posts/{post}/restore', 'PostController@restore')->name('posts.restore');
 
 Route::get('/posts/tag/{tag}', 'PostTagController@index')->name('posts.tags.index');
 
