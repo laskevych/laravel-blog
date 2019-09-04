@@ -1,7 +1,6 @@
 <nav class="shadow-sm navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #d9f5ff;">
     <a class="navbar-brand" href="{{ route('home') }}">
-        <img src="{{ asset('images/site-logo.png') }}" width="30" height="30" class="d-inline-block align-top" alt="">
-        {{ env('APP_NAME') }}
+        <img src="{{ asset('images/site-logo.png') }}" width="30" height="30" class="d-inline-block align-top" alt="{{ env('APP_NAME') }}" title="{{ env('APP_NAME') }}">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
