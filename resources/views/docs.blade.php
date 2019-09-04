@@ -3,13 +3,10 @@
 @section('content')
     <div class="col-12">
         
-        <p>
-            <span class="alert alert-success">You can get your API token in your profile.</span>
-        </p>
+        <p class="text-success">You can get your API token in your profile.</p>
 
-        <hr>
         <h1>Basic</h1>
-        <p class="h4">Status</p>
+        <p class="h4 text-info">Status</p>
         <p class="font-weight-bold">Method: <code>GET</code></p>
         <p><kbd>{{ route('api.v1.status') }}</kbd></p>
 
@@ -67,7 +64,7 @@
         <p class="h4 text-info">Get post comments</p>
         <p class="font-weight-bold">Method: <code>GET</code></p>
         <p class="font-weight-bold">Headers: <code>Accept: application/json</code></p>
-        <p><kbd>{{ route('api.v1.posts.comments.index', ['post', 1]) }}</kbd></p>
+        <p><kbd>{{ route('api.v1.posts.comments.index', ['post'=> 1]) }}</kbd></p>
 
         <p class="h4 text-info">Get post comment</p>
         <p class="font-weight-bold">Method: <code>GET</code></p>
