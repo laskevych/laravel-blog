@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
+use App\Comment;
 use App\Http\Requests\StoreComment;
 use Illuminate\Http\Request;
 
@@ -26,7 +27,6 @@ class UserCommentController extends Controller
 
     public function destroy(User $user, Comment $comment, Request $request)
     {
-        $this->authorize($comment);
         $comment->delete();
 
         $request->session()->flash('status', __('Comment was deleted!'));

@@ -21,6 +21,8 @@ Route::get('/secret', 'HomeController@secret')
 
 Route::get('/about', 'HomeController@about')->name('about');
 
+Route::get('/docs', 'HomeController@docs')->name('docs');
+
 Route::resource('posts', 'PostController');
 
 Route::patch('/posts/{post}', 'PostController@restore')->name('posts.restore');

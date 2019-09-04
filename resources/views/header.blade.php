@@ -14,6 +14,9 @@
             <li class="nav-item {{ Route::currentRouteName() == 'about' ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('about') }}">{{ __('About') }}</a>
             </li>
+            <li class="nav-item {{ Route::currentRouteName() == 'docs' ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route('docs') }}">API</a>
+            </li>
             <li class="nav-item {{ Route::currentRouteName() == 'posts.index' ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('posts.index') }}">{{ __("Blog Posts") }}</a>
             </li>
