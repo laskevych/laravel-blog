@@ -26,7 +26,7 @@
         <p class="h4 text-info">Create post</p>
         <p class="font-weight-bold">Method: <code>POST</code></p>
         <p class="font-weight-bold">Headers: <code>Accept: application/json; Content-Type: application/json</code></p>
-        <p class="font-weight-bold">Authorization: <code>Bearer: your api token</code></p>
+        <p class="font-weight-bold">Authorization: <code>Bearer your api token</code></p>
         <p class="font-weight-bold">Body: 
             <code>
             {
@@ -40,7 +40,7 @@
         <p class="h4 text-info">Update post</p>
         <p class="font-weight-bold">Method: <code>PUT</code></p>
         <p class="font-weight-bold">Headers: <code>Accept: application/json; Content-Type: application/json</code></p>
-        <p class="font-weight-bold">Authorization: <code>Bearer: your api token</code></p>
+        <p class="font-weight-bold">Authorization: <code>Bearer your api token</code></p>
         <p class="font-weight-bold">Body: 
             <code>
             {
@@ -54,7 +54,7 @@
         <p class="h4 text-info">Delete post</p>
         <p class="font-weight-bold">Method: <code>DELETE</code></p>
         <p class="font-weight-bold">Headers: <code>Accept: application/json</code></p>
-        <p class="font-weight-bold">Authorization: <code>Bearer: your api token</code></p>
+        <p class="font-weight-bold">Authorization: <code>Bearer your api token</code></p>
         <p><kbd>{{ route('api.v1.posts.destroy', ['post'=>1]) }}</kbd></p>
 
 
@@ -74,7 +74,7 @@
         <p class="h4 text-info">Create post comment</p>
         <p class="font-weight-bold">Method: <code>POST</code></p>
         <p class="font-weight-bold">Headers: <code>Accept: application/json; Content-Type: application/json</code></p>
-        <p class="font-weight-bold">Authorization: <code>Bearer: your api token</code></p>
+        <p class="font-weight-bold">Authorization: <code>Bearer your api token</code></p>
         <p class="font-weight-bold">Body: 
             <code>
             {
@@ -88,7 +88,7 @@
         <p class="h4 text-info">Update post comment</p>
         <p class="font-weight-bold">Method: <code>PUT</code></p>
         <p class="font-weight-bold">Headers: <code>Accept: application/json; Content-Type: application/json</code></p>
-        <p class="font-weight-bold">Authorization: <code>Bearer: your api token</code></p>
+        <p class="font-weight-bold">Authorization: <code>Bearer your api token</code></p>
         <p class="font-weight-bold">Body: 
             <code>
             {
@@ -102,7 +102,7 @@
         <p class="h4 text-info">Delete post comment</p>
         <p class="font-weight-bold">Method: <code>DELETE</code></p>
         <p class="font-weight-bold">Headers: <code>Accept: application/json</code></p>
-        <p class="font-weight-bold">Authorization: <code>Bearer: your api token</code></p>
+        <p class="font-weight-bold">Authorization: <code>Bearer your api token</code></p>
         <p><kbd>{{ route('api.v1.posts.comments.destroy', ['post'=>1, 'comment'=>3]) }}</kbd></p>
     </div>
 @endsection

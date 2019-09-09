@@ -2,6 +2,8 @@
 
 *[English](readme.md) | [Русский](readme-ru.md)*
 
+*[Demo](https://devhub.space)*
+
 ## Laravel Blog
 
 Мое первое приложение на Laravel 5.8 
