@@ -8,6 +8,7 @@
         <h1>Basic</h1>
         <p class="h4 text-info">Status</p>
         <p class="font-weight-bold">Method: <code>GET</code></p>
+        <p class="font-weight-bold">Headers: <code>Accept: application/json</code></p>
         <p><kbd>{{ route('api.v1.status') }}</kbd></p>
 
         <hr>

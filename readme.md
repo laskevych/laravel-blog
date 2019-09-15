@@ -28,10 +28,11 @@ This is my first app build with Laravel 5.8
 
 ## Start
  1. Clone this repo into a new directory.
- 2. Add **.env** file
+ 2. Add **.env** file and set params to connect to your database.
  3. Run `composer install`
  4. Run `npm install` 
  5. Run `php artisan key:generate`
+ 5. Run `php artisan db:seed`
  6. Update Redis configuration. [Redis Labs](https://redislabs.com/)
  7. Update MailTrap configuration. [MailTrap](https://mailtrap.io/)
  8. Run `php artisan storage:link`
