@@ -6,7 +6,8 @@
 
 ## Laravel Blog
 
-This is my first app build with Laravel 5.8 
+This is my first app build with Laravel 5.8
+> admin: test@gmail.com / 12345678
 
 - CRUD operations to the blog post.
 - Creating and Deleting comment for user and blog post.
